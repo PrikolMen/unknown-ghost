@@ -185,7 +185,7 @@ perform = ->
 
         entity\Spawn!
 
-ug_source = CreateClientConVar( "ug_source", "", true, false, "Unknown ghost's source." )
+ug_source = CreateClientConVar( "ug_source", "https://raw.githubusercontent.com/PrikolMen/unknown-ghost/main/default-ghosts.json", true, false, "Unknown ghost's source." )
 
 requestData = ->
     HTTP {

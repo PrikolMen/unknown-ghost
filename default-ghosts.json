@@ -17,7 +17,7 @@
 	"ba_jail_blackops": [
 		{
 			"spectate": true,
-			"origin": "[-5412 -20 72]",
+			"origin": "[-5412 -20 24]",
 			"workshopid": "2456261845",
 			"modelpath": "models/prikolmen/mothica_pm.mdl"
 		}
