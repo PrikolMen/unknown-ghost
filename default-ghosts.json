@@ -1,0 +1,138 @@
+{
+	"maps": {
+		"gm_construct": [
+			{
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 180 0}",
+				"origin": "[-3285 -1540 -144]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 -45 0}",
+				"origin": "[-3080 -1080 -95]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1786,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{45 -45 0}",
+				"origin": "[-4585 5819 2082]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 90 0}",
+				"origin": "[-1345 1080 10986]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"ba_jail_blackops": [
+			{
+				"act": 1780,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[-2726 -67 242]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"jb_mars_lp": [
+			{
+				"spectate": true,
+				"angles": "{0 -60 0}",
+				"origin": "[-535 1600 240]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"de_dust": [
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 90 0}",
+				"origin": "[-760 -280 158]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"de_dust2": [
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 -45 0}",
+				"origin": "[-585 680 160]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"de_chateau": [
+			{
+				"act": 1850,
+				"spectate": true,
+				"angles": "{0 90 0}",
+				"origin": "[1950 962 325]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"gm_alium_nook": [
+			{
+				"act": 1974,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[750 -1292 222]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"jb_kliffside_v1a1": [
+			{
+				"act": 1786,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{-45 90 0}",
+				"origin": "[925 -1570 -944]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 0 0}",
+				"origin": "[-1750 -250 128]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1974,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 -120 0}",
+				"origin": "[-930 1722 82]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 -120 0}",
+				"origin": "[1572 964 16]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"spectate": true,
+				"angles": "{0 180 0}",
+				"origin": "[-7 3782 18]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"jb_exg_northernpeak_b3": [
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 -60 0}",
+				"origin": "[-2050 4862 1644]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		]
+	},
+	"workshop": {
+		"models/prikolmen/mothica_pm.mdl": "2456261845"
+	}
+}
