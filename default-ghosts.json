@@ -1,0 +1,25 @@
+{
+	"gm_construct": [
+		{
+			"spectate": true,
+			"angles": "{0 90 0}",
+			"workshopid": "2456261845",
+			"modelpath": "models/prikolmen/mothica_pm.mdl"
+		},
+		{
+			"workshopid": "2816652240",
+			"origin": "[128 0 0]",
+			"bodygroups": "02001",
+			"spectate": false,
+			"modelpath": "models/tnrp/player/mushroomgirl/Mycena.mdl"
+		}
+	],
+	"ba_jail_blackops": [
+		{
+			"spectate": true,
+			"origin": "[-5412 -20 72]",
+			"workshopid": "2456261845",
+			"modelpath": "models/prikolmen/mothica_pm.mdl"
+		}
+	]
+}
