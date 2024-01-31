@@ -149,7 +149,7 @@ perform = ->
         return
 
     for data in *map
-        chance = data[ 5 ]
+        chance = data.chance
         if chance ~= nil and chance ~= true
             if chance == false
                 continue
