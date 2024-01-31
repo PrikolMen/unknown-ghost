@@ -6,6 +6,11 @@ FrameTime = FrameTime
 EyePos = EyePos
 Lerp = Lerp
 
+addonData = {
+    workshop: {}
+    maps: {}
+}
+
 --[[
 
     0 - not loaded
@@ -37,6 +42,7 @@ scripted_ents.Register( {
         return false
 
     DownloadModel: ( workshopID ) =>
+        workshopID = workshopID or addonData.workshop[ model ]
         unless workshopID
             return
 
@@ -138,13 +144,12 @@ scripted_ents.Register( {
 
 }, addonName )
 
-maps = {}
 
 perform = ->
     for entity in *ents.FindByClass( addonName )
         entity\Remove!
 
-    map = maps[ game.GetMap! ]
+    map = addonData.maps[ game.GetMap! ]
     if map == nil
         return
 
@@ -199,7 +204,7 @@ requestData = ->
             unless tbl
                 error "Failed to parse unknown ghost data. [" .. data .. "]"
 
-            table.Merge( maps, tbl )
+            table.Merge( addonData, tbl )
             print "[UG] Unknown ghost data received!"
             perform!
     }
