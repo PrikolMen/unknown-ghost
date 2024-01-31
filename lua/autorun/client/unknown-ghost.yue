@@ -27,22 +27,22 @@ scripted_ents.Register( {
 
     AutomaticFrameAdvance: true
 
-    ModelIsValid: ( model ) =>
+    ModelIsValid: =>
         if @ModelStatus == 1
             return true
 
         if @ModelStatus == 2
             return false
 
-        if file.Exists( model, "GAME" )
-            util.PrecacheModel( model )
+        if file.Exists( @ModelPath, "GAME" )
+            util.PrecacheModel( @ModelPath )
             @ModelStatus = 1
             return true
 
         return false
 
-    DownloadModel: ( workshopID ) =>
-        workshopID = workshopID or addonData.workshop[ model ]
+    DownloadModel: =>
+        workshopID = @WorkshopID or addonData.workshop[ @ModelPath ]
         unless workshopID
             return
 
@@ -73,9 +73,9 @@ scripted_ents.Register( {
         unless @ModelStatus
             @ModelStatus = 0
 
-        unless @ModelIsValid( @ModelPath )
-            @DownloadModel( @WorkshopID )
+        unless @ModelIsValid!
             @SetNoDraw( true )
+            @DownloadModel!
             return
 
         @SetModel( @ModelPath )
