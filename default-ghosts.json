@@ -120,6 +120,13 @@
 				"angles": "{0 180 0}",
 				"origin": "[-7 3782 18]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[-1619 1158 -240]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
 		"jb_exg_northernpeak_b3": [
