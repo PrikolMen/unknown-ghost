@@ -34,9 +34,34 @@
 		"ba_jail_blackops": [
 			{
 				"act": 1780,
+				"chance": 25,
 				"spectate": true,
 				"angles": "{0 120 0}",
 				"origin": "[-2726 -67 242]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1970,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 180 0}",
+				"origin": "[-5175 38 -25]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 -160 0}",
+				"origin": "[920 3556 -43]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 240 0}",
+				"origin": "[-590 -390 0]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
