@@ -170,6 +170,31 @@
 				"origin": "[-2050 4862 1644]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
+		],
+		"ba_jail_ishimura_v2": [
+			{
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[2950 6448 512]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1786,
+				"spectate": true,
+				"angles": "{45 30 0}",
+				"origin": "[3955 4730 1412]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"jb_carceris": [
+			{
+				"act": 1970,
+				"spectate": true,
+				"angles": "{0 -120 0}",
+				"origin": "[1435 -3625 142]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
 		]
 	},
 	"workshop": {
