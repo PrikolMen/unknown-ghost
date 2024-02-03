@@ -71,6 +71,14 @@
 				"angles": "{0 -60 0}",
 				"origin": "[-535 1600 240]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 260 0}",
+				"origin": "[1090 -880 272]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
 		"de_dust": [
