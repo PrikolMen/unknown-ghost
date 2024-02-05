@@ -34,9 +34,34 @@
 		"ba_jail_blackops": [
 			{
 				"act": 1780,
+				"chance": 25,
 				"spectate": true,
 				"angles": "{0 120 0}",
 				"origin": "[-2726 -67 242]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1970,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 180 0}",
+				"origin": "[-5175 38 -25]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 25,
+				"spectate": true,
+				"angles": "{0 -160 0}",
+				"origin": "[920 3556 -43]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 240 0}",
+				"origin": "[-590 -390 0]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
@@ -45,6 +70,14 @@
 				"spectate": true,
 				"angles": "{0 -60 0}",
 				"origin": "[-535 1600 240]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 260 0}",
+				"origin": "[1090 -880 272]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
@@ -120,6 +153,13 @@
 				"angles": "{0 180 0}",
 				"origin": "[-7 3782 18]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 392,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[-1619 1158 -240]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		],
 		"jb_exg_northernpeak_b3": [
@@ -128,6 +168,31 @@
 				"spectate": true,
 				"angles": "{0 -60 0}",
 				"origin": "[-2050 4862 1644]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"ba_jail_ishimura_v2": [
+			{
+				"chance": 50,
+				"spectate": true,
+				"angles": "{0 120 0}",
+				"origin": "[2950 6448 512]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			},
+			{
+				"act": 1786,
+				"spectate": true,
+				"angles": "{45 30 0}",
+				"origin": "[3955 4730 1412]",
+				"modelpath": "models/prikolmen/mothica_pm.mdl"
+			}
+		],
+		"jb_carceris": [
+			{
+				"act": 1970,
+				"spectate": true,
+				"angles": "{0 -120 0}",
+				"origin": "[1435 -3625 142]",
 				"modelpath": "models/prikolmen/mothica_pm.mdl"
 			}
 		]
