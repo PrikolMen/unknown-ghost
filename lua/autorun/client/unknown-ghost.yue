@@ -101,6 +101,12 @@ scripted_ents.Register( {
         if @GetNoDraw!
             return
 
+        if @m_vOrigin
+            @SetPos( @m_vOrigin )
+
+        if @m_aAngles
+            @SetAngles( @m_aAngles )
+
         @FrameAdvance!
 
         unless @Spectate
@@ -158,10 +164,10 @@ perform = ->
         entity.ModelPath = data.modelpath
 
         if data.origin
-            entity\SetPos( data.origin )
+            entity.m_vOrigin = data.origin
 
         if data.angles
-            entity\SetAngles( data.angles )
+            entity.m_aAngles = data.angles
 
         if data.act
             entity.Act = data.act
@@ -190,11 +196,13 @@ requestData = ->
         url: ug_source\GetString!
         success: ( code, data ) ->
             if code ~= 200
-                error "Failed to load unknown ghost data: " .. code
+                print "Failed to load unknown ghost data: " .. code
+                return
 
             tbl = util.JSONToTable( data )
             unless tbl
-                error "Failed to parse unknown ghost data. [" .. data .. "]"
+                print "Failed to parse unknown ghost data. [" .. data .. "]"
+                return
 
             table.Merge( addonData, tbl )
             print "[UG] Unknown ghost data received!"
@@ -203,5 +211,6 @@ requestData = ->
 
     return
 
+hook.Add "PostCleanupMap", addonName, requestData
 hook.Add "InitPostEntity", addonName, requestData
 concommand.Add "ug_reload", requestData
