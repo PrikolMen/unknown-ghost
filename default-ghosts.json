@@ -219,6 +219,31 @@
                 "origin": "[1485 -355 -384]",
                 "modelpath": "models/player/mothica.mdl"
             }
+        ],
+        "jb_redzone": [
+            {
+                "act": 1970,
+                "spectate": true,
+                "angles": "{0 -110 0}",
+                "origin": "[1255 468 48]",
+                "modelpath": "models/player/mothica.mdl"
+            },
+            {
+                "act": 389,
+                "spectate": true,
+                "bodygroups": "100",
+                "angles": "{0 -92 0}",
+                "origin": "[2080 1385 -144]",
+                "modelpath": "models/player/mothica.mdl"
+            },
+            {
+                "act": 387,
+                "spectate": false,
+                "angles": "{0 -20 0}",
+                "origin": "[-1240 -50 272]",
+                "modelpath": "models/player/mothica.mdl"
+            }
+
         ]
     },
     "workshop": {
